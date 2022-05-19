@@ -1,4 +1,5 @@
 #include <iostream>
+#include <math.h>
 using namespace std;
 
 int main(){
@@ -30,12 +31,12 @@ break;
 }
 }
 if (flag==true) {
-cout << num << " found at index: " << index << endl;
+cout << num << " found at index number: " << index << endl;
 }
 else if (flag==false) {
 cout << num << " not found in the array "<< endl;
 }
 i++;
 }
-
+return 0;
 }
