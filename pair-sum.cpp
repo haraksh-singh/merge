@@ -1,4 +1,5 @@
 #include <iostream>
+#include<math.h>
 using namespace std;
 
 int main() {
@@ -22,6 +23,8 @@ Count=Count+1;
 }
 }
 cout << Count;
+//file modified by adding comment,return 0,and math.h header file.
+return 0;
 }
 
 
